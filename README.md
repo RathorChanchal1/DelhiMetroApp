@@ -1,10 +1,27 @@
-DELHI METRO RAIL APP
-Please don't get confused, this is NOT an ANDROID Application!
+# Delhi Metro Rail App
 
-This is a simple Java program that will take information (name) of the source station and the destination station, of Delhi Metro, from the user and display the fare and shortest metro route to reach the destination. It will also be having a metro map for commuter’s better navigation.
+This is a simple Java program that helps users find the fare and shortest metro route between two stations of the Delhi Metro. The program utilizes Graph and Heap data structures to achieve this functionality.
 
-The idea is implemented using Graph and Heap data structures. The graph has nodes and edges. Nodes represent a metro station that will be containing certain information regarding that station like its name, its metro corridor, and the lines which it connects. Edges (the connection between two nodes) represent the distance between the two stations and the cost of each edge will be equal to the distance between the two of its connecting stations(nodes).
+## Features
+- Takes input of source and destination stations from the user
+- Displays the fare and shortest metro route to reach the destination
+- Includes a metro map for commuter navigation
+- Implements graph nodes and edges to represent metro stations and their connections
+- Utilizes algorithms like Dijkstra, breadth-first search, and depth-first search to determine the shortest path
+- Calculates fare based on the total distance between the two stations
 
-By using different algorithms like Dijkstra, breadth-first search, depth-first search, etc, the shortest path between the source station and the destination station is determined, and accordingly, the fare is being calculated on the basis of the total distance between the two stations. Finally, the metro route between the two stations and the total fare is displayed.
+## Files
+- `Main.java`: Contains the main code for the program
+- `Heap.java`: Contains the implementation of the heap data structure
 
-Main.java cointains all the major code and Heap.java contains heap implementation.
+## Usage
+To use the program, simply run `Main.java` and follow the instructions to input the source and destination stations.
+
+## How it Works
+The program uses graph nodes to represent metro stations, with edges representing the connections between stations. By implementing various algorithms, it determines the shortest path between the source and destination stations and calculates the fare based on the total distance.
+
+## Contributors
+- [Chanchal Rathor]
+
+
+
